@@ -1,0 +1,2 @@
+"you can only upgrade items above level %d";
+"XXXXX";

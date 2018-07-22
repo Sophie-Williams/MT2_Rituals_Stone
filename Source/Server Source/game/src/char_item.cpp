@@ -81,3 +81,10 @@
 								else
 									RefineItem(item, item2);
 							}
+
+		//Search for:
+			if (pkItemScroll->GetValue(0) == HYUNIRON_CHN) // RITUALS_SCROLL
+				bDestroyWhenFail = true;
+		//Replace:
+			if (pkItemScroll->GetValue(0) == HYUNIRON_CHN || pkItemScroll->GetValue(0) == RITUALS_SCROLL) // RITUALS_SCROLL
+				bDestroyWhenFail = true;
